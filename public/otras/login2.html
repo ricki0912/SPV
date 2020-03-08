@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Comedor Undac</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--<link rel="shortcut icon" href="http://172.16.0.178/comedorU/public/img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">	
+	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">-->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+</head>
+</head>
+<body>
+<div class="container">
+	<div class="row" id="contenedor">
+		<div class="col-md-2"></div>
+		<div class="col-md-8 col-sm-12">
+			<div class="d-flex align-items-center justify-content-center" style="height: 100vh;">
+				<div class="row" id="formulario">
+					<div class="col-md-6" style="margin: 0px; padding: 0px;">
+						<div class="otra" >
+							<img src="img/instagram.jpg" class="img-fluid imagencomedor">
+						</div>
+					</div>
+					<div class="col-md-6 text-center justify-content-center align-self-center">
+						<div class="col-md-10 offset-md-1 form-input text-center justify-content-center align-self-center" id="caja">
+							<img src="img/favicon.png" class="imagenusuario" width="80" height="80" style="border-radius: 150px;">
+							<h4 class="titulologin">COMEDOR UNIVERSITARIO</h4>
+							<h5>Bienvenido</h5>
+							<form id="login">
+								<div class="form-group sele">
+									<select class="form-control" id="gradoAcad"   name="role" type="select">
+	                                        <option value="" disabled="true" selected="true">-- Seleccione Rol --</option>
+	                                        <option value="AD">Administrativo</option>
+	                                        <option value="AL">Alumno</option>
+	                                 </select>
+	                                  <div class="invalid-feedback">
+						                  Aún no selecciona el <strong>rol</strong>
+						              </div>
+								</div>
+								<div class="form-group user">
+									
+									<input type="number" class="form-control " name="user" placeholder="Código de Matricula o DNI" autocomplete="username">
+									 <div class="invalid-feedback">
+						                 Aún no ingresa el <strong>codigo de matricula</strong>
+						             </div>
+								</div>
+								<div class="form-group contra">
+									
+									<input type="password" class="form-control" name="password" placeholder="Contraseña" autocomplete="password"> 
+									 <div class="invalid-feedback">
+						                 Aún no ingresa la <strong>contraseña</strong>
+						             </div>
+								</div>
+								<div class="col-12">									
+									<button type="submit" class="btn btn-success">Ingresar</button>
+							</div>
+								<div class="clearfix" style="margin-top:5px;">
+									
+								</div>
+								
+								<div class="messaje" role="alert">
+								  
+								</div>
+		
+							</form>
+						</div>
+						
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2"></div>
+
+	</div>
+</div>
+<script src="http://172.16.0.178/comedorU/public/calendar/lib/jquery.min.js"></script>
+	<script src="http://172.16.0.178/comedorU/public/js/login/login.js"></script>
+</body>
+</html>
